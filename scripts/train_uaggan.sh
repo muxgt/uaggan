@@ -1,8 +1,8 @@
 GPU_ID=$1
 
 python3 train.py \
-  --dataroot ./datasets/horse2zebra \
-  --name uaggan_horse2zebra \
+  --dataroot ./datasets/input \
+  --name uaggan_input \
   --model uag_gan \
   --dataset_mode unaligned \
   --pool_size 50 \
